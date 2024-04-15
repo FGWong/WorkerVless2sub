@@ -7,11 +7,22 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 let addresses = [
 	'icook.tw:2053#官方优选域名',
 	'cloudflare.cfgo.cc#优选官方线路',
+	'dnschecker.org#优选域名',
+	'alejandracaiccedo.com#优选域名',
+	'comicabc.com#优选域名',
+	'edtunnel-dgp.pages.dev#优选域名',
+	'iplocation.io#优选域名',
+	'ip.sb#优选域名',
+	'japan.com#优选域名',
+	'log.bpminecraft.com#优选域名',
+	'malaysia.com#优选域名',
+	'download.yunzhongzhuan.com#优选域名',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
 	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/FGWong/clash_config/main/address_api.txt',
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
@@ -25,6 +36,7 @@ let addressesnotls = [
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
 	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/FGWong/clash_config/main/add_notls_api.txt',
 ];
 
 let DLS = 8;//速度下限
@@ -42,7 +54,11 @@ let proxyIPs = [
 	'proxyip.aliyun.fxxk.dedyn.io',
 	'proxyip.multacom.fxxk.dedyn.io',
 	'proxyip.vultr.fxxk.dedyn.io',
+	'cdn.xn--b6gac.eu.org', 
+	'cdn-all.xn--b6gac.eu.org', 
+	'workers.cloudflare.cyou',
 ];
+
 let CMproxyIPs = [
 	//{ proxyIP: "proxyip.fxxk.dedyn.io", type: "HK" },
 ];
