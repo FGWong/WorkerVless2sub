@@ -5,15 +5,15 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:2053#官方域名s',
-	'cloudflare.cfgo.cc#官方线路s',
-	'dnschecker.org:2096#优选域名s',
-	'alejandracaiccedo.com#优选域名s',
-	'comicabc.com:2083#优选域名s',
-	'edtunnel-dgp.pages.dev:2087#优选域名s',
-	'iplocation.io#优选域名s',
-	'japan.com#优选域名s',
-	'malaysia.com:2083#优选域名s',
+	'icook.tw:2053#官方优选',
+	'cloudflare.cfgo.cc#官方线路',
+	'dnschecker.org:2096#优选',
+	'alejandracaiccedo.com#优选',
+	'comicabc.com:2083#优选',
+	'edtunnel-dgp.pages.dev:2087#优选',
+	'iplocation.io#优选',
+	'japan.com#优选',
+	'malaysia.com:2083#优选',
 ];
 
 // 设置优选地址api接口
