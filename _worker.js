@@ -13,7 +13,8 @@ let addresses = [
 	'edtunnel-dgp.pages.dev:2087#优选',
 	'iplocation.io#优选',
 	'japan.com#优选',
-	'malaysia.com:2083#优选'
+	'malaysia.com:8443#优选',
+	'cdn.didi8.com:443#优选',
 ];
 
 // 设置优选地址api接口
