@@ -57,9 +57,6 @@ let proxyIPs = [
 	'proxyip.aliyun.fxxk.dedyn.io',
 	'proxyip.multacom.fxxk.dedyn.io',
 	'proxyip.vultr.fxxk.dedyn.io',
-	'cdn.xn--b6gac.eu.org', 
-	'cdn-all.xn--b6gac.eu.org', 
-	'workers.cloudflare.cyou',
 ];
 
 let CMproxyIPs = [
