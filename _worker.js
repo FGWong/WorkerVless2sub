@@ -5,18 +5,15 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:2053#官方优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
-	'dnschecker.org#优选域名',
-	'alejandracaiccedo.com#优选域名',
-	'comicabc.com#优选域名',
-	'edtunnel-dgp.pages.dev#优选域名',
-	'iplocation.io#优选域名',
-	'ip.sb#优选域名',
-	'japan.com#优选域名',
-	'log.bpminecraft.com#优选域名',
-	'malaysia.com#优选域名',
-	'download.yunzhongzhuan.com#优选域名',
+	'icook.tw:2053#官方域名s',
+	'cloudflare.cfgo.cc#官方线路s',
+	'dnschecker.org:2096#优选域名s',
+	'alejandracaiccedo.com#优选域名s',
+	'comicabc.com:2083#优选域名s',
+	'edtunnel-dgp.pages.dev:2087#优选域名s',
+	'iplocation.io#优选域名s',
+	'japan.com#优选域名s',
+	'malaysia.com:2083#优选域名s',
 ];
 
 // 设置优选地址api接口
@@ -28,9 +25,13 @@ let addressesapi = [
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
-	'www.visa.com.sg#官方优选域名',
+	'www.visa.com.sg:2095#官方优选域名',
 	'www.wto.org:8080#官方优选域名',
-	'www.who.int:8880#官方优选域名',
+	'skk.moe:2082#优选域名',
+	'russia.com:8880#优选域名',
+	'singapore.com:2052#优选域名',
+	'www.csgo.com:2086#优选域名',
+	'www.sap.com#优选域名'
 ];
 
 // 设置优选noTLS地址api接口
